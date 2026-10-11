@@ -112,6 +112,16 @@
       "extra": ""
     },
     {
+      "name": "Mandarine Neo",
+      "uniqueId": "3ds.io.github.ptyfyre.mandarine.neo",
+      "description": "Supported extensions: 3ds, 3dsx, cci, cxi.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|cci|cxi|m3u)$",
+      "amStartArguments": "-n io.github.ptyfyre.mandarine.neo/.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "Mandarine",
       "uniqueId": "3ds.io.github.mandarine3ds.mandarine",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
