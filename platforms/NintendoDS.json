@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 14,
+  "revisionNumber": 15,
   "platform": {
     "name": "Nintendo DS",
     "uniqueId": "nds",
@@ -45,6 +45,16 @@
       "amStartArguments": "-a com.nireves333.melonmix.LAUNCH_ROM\n-n com.nireves333.melonmix/me.magnum.melonds.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "Pizza Boy Double Slice",
+      "uniqueId": "nds.com.pizzaemulators.pbds",
+      "description": "Supported extensions: nds, zip, 7z, rar.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z|rar)$",
+      "amStartArguments": "-n com.pizzaemulators.pbds/.MainActivity\n  -e rom_uri {file.uri}\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
       "extra": ""
     },
     {
